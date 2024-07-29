@@ -91,7 +91,6 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/loading',
       routes: {
-        '/loading': (context) => LoadingScreen(),
         '/home': (context) => HomePage(),
         '/about': (context) => AboutPage(),
         '/form': (context) => MyCustomForm(),
@@ -100,7 +99,6 @@ class MyApp extends StatelessWidget {
         '/food_nutritions': (context) => NutritionPage(),
         '/hydration': (context) => HydrationPage(),
         '/suggestion': (context) => SuggestionPage(),
-        '/qanda': (context) => QandAPage(),
         '/settings': (context) => SettingsPage(),
       },
     );
