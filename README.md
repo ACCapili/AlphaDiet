@@ -235,13 +235,19 @@ class _HomePageState extends State<HomePage> {
 
 The rest of the pages follow a similar structure, providing various functionalities such as filling forms, viewing details, and setting goals.
 
-## License
+Why It's Useful
+This app provides detailed descriptions of various diet foods, their benefits, and practical suggestions. It also includes goals to help you achieve and maintain a healthy diet.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Getting Started
+A few resources to get you started if this is your first Flutter project:
 
-## Acknowledgments
-
-- Flutter team for the amazing framework.
-- All contributors and testers for their feedback and support.
-  
-For any inquiries or support, please contact us at: support@alphadiet.com
+Clone the repository: 'git clone https://github.com/francokiid/top_drive_app.git'
+Navigate to the project directory: 'cd top_drive_app'
+Install dependencies: 'flutter pub get'
+Run the app: 'flutter run'
+Members
+SR-Code	Member
+21-00791	Balmes, Joann V.
+20-00208	Franco, Angel E.
+20-05541	Malapitan, Nhica Clarrise S.
+21-06397	Sanchez, Ma. Catherine C.
