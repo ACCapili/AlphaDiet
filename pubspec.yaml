@@ -1,0 +1,39 @@
+name: project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.1
+  form_field_validator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/diet1.jpg
+    - assets/meat.jpg
+    - assets/beef.jpg
+    - assets/apple.jpg
+    - assets/applepear.jpg
+    - assets/appricot.jpg
+    - assets/carrots.jpg
+    - assets/ccumber.jpg
+    - assets/popcorn.jpg
+    - assets/coffee.jpg
+    - assets/juice.jpg
+    - assets/soda.jpg
+    - assets/tea.jpg
+    - assets/waterone.jpg
+    - assets/shrimpp.jpg
+    - assets/oysters.jpg
+    - assets/eatsmall.jpg
