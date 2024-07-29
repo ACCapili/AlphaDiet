@@ -12,7 +12,6 @@ Alpha Diet is a comprehensive Flutter application designed to help you manage yo
 - **Nutrition Page**: Explore nutritional information for different food categories like Meat, Vegetables, Fruits, and Snacks.
 - **Hydration Page**: Learn about various drinks and their benefits for hydration.
 - **Suggestion Page**: Get tips on diet, exercise, wellness, and lifestyle.
-- **Q&A Page**: Ask questions and get answers about nutrition and health.
 - **Settings Page**: Customize your app experience, including dark mode and font size.
 
 ## Getting Started
@@ -54,7 +53,6 @@ lib/
 ├── nutrition_page.dart      # Nutrition page
 ├── hydration_page.dart      # Hydration page
 ├── suggestion_page.dart     # Suggestion page
-├── qanda_page.dart          # Q&A page
 └── settings_page.dart       # Settings page
 ```
 
@@ -76,7 +74,6 @@ import 'rating_page.dart';
 import 'nutrition_page.dart';
 import 'hydration_page.dart';
 import 'suggestion_page.dart';
-import 'qanda_page.dart';
 import 'settings_page.dart';
 
 void main() {
@@ -160,12 +157,6 @@ class _HomePageState extends State<HomePage> {
               },
             ),
             ListTile(
-              title: Text('Q&A'),
-              onTap: () {
-                Navigator.pushNamed(context, '/qanda');
-              },
-            ),
-            ListTile(
               title: Text('Rate the App'),
               onTap: () {
                 Navigator.pushNamed(context, '/rating');
@@ -241,13 +232,14 @@ This app provides detailed descriptions of various diet foods, their benefits, a
 Getting Started
 A few resources to get you started if this is your first Flutter project:
 
-Clone the repository: 'git clone https://github.com/francokiid/top_drive_app.git'
-Navigate to the project directory: 'cd top_drive_app'
-Install dependencies: 'flutter pub get'
-Run the app: 'flutter run'
+The application uses several dependencies, including:
+- flutter
+- form_field_validator
+- flutter_rating_bar
+
 Members
 SR-Code	Member
-21-00791	Balmes, Joann V.
-20-00208	Franco, Angel E.
-20-05541	Malapitan, Nhica Clarrise S.
-21-06397	Sanchez, Ma. Catherine C.
+21-04352	Pagayunan, Jomielle N.
+21-08865	Magbojos, Christian D.
+21-09502	Capili, Arvy C.
+
